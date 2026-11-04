@@ -1,0 +1,294 @@
+{
+  "categories": [
+    {
+      "id": "analysis",
+      "name": "数学分析",
+      "description": "实数、函数与极限，从定义走向证明。",
+      "status": "ready",
+      "count": 12,
+      "items": [
+        {
+          "id": "0298b842ae77cb5458008f48",
+          "title": "第二节课-实数的大小关系与基本性质",
+          "filename": "第二节课-实数的大小关系与基本性质.pdf",
+          "categoryId": "analysis",
+          "category": "数学分析",
+          "subsection": "",
+          "bytes": 465193,
+          "modified": "2026-10-08T06:33:46.937Z",
+          "url": "documents/0298b842ae77cb5458008f48.pdf"
+        },
+        {
+          "id": "0173e1ff36d5ac386751d306",
+          "title": "第三节课-数集与确界原理",
+          "filename": "第三节课-数集与确界原理.pdf",
+          "categoryId": "analysis",
+          "category": "数学分析",
+          "subsection": "",
+          "bytes": 702619,
+          "modified": "2026-10-12T15:31:21.694Z",
+          "url": "documents/0173e1ff36d5ac386751d306.pdf"
+        },
+        {
+          "id": "e13de806ab8ecdaa4350f904",
+          "title": "第四节课-完备性公理·函数概念·算术根",
+          "filename": "第四节课-完备性公理·函数概念·算术根.pdf",
+          "categoryId": "analysis",
+          "category": "数学分析",
+          "subsection": "",
+          "bytes": 1088443,
+          "modified": "2026-10-13T09:08:58.317Z",
+          "url": "documents/e13de806ab8ecdaa4350f904.pdf"
+        },
+        {
+          "id": "bab99792cc4a580cc2f62719",
+          "title": "第五节课-无理指数幂·三角函数与反三角函数",
+          "filename": "第五节课-无理指数幂·三角函数与反三角函数.pdf",
+          "categoryId": "analysis",
+          "category": "数学分析",
+          "subsection": "",
+          "bytes": 1041945,
+          "modified": "2026-10-15T16:16:42.933Z",
+          "url": "documents/bab99792cc4a580cc2f62719.pdf"
+        },
+        {
+          "id": "4beb395505833f7685acfc65",
+          "title": "第六节课-有界·单调·奇偶·周期",
+          "filename": "第六节课-有界·单调·奇偶·周期.pdf",
+          "categoryId": "analysis",
+          "category": "数学分析",
+          "subsection": "",
+          "bytes": 1100242,
+          "modified": "2026-10-19T13:31:44.836Z",
+          "url": "documents/4beb395505833f7685acfc65.pdf"
+        },
+        {
+          "id": "a85313386399ee9ae0025c0a",
+          "title": "第七节课-数列极限的ε-N定义",
+          "filename": "第七节课-数列极限的ε-N定义.pdf",
+          "categoryId": "analysis",
+          "category": "数学分析",
+          "subsection": "",
+          "bytes": 1139163,
+          "modified": "2026-10-20T05:24:55.080Z",
+          "url": "documents/a85313386399ee9ae0025c0a.pdf"
+        },
+        {
+          "id": "d33ef53e207c93ab2ccfd7bf",
+          "title": "第七至十节课-知识点梳理与作业对照",
+          "filename": "第七至十节课-知识点梳理与作业对照.pdf",
+          "categoryId": "analysis",
+          "category": "数学分析",
+          "subsection": "",
+          "bytes": 931004,
+          "modified": "2026-11-01T10:12:14.200Z",
+          "url": "documents/d33ef53e207c93ab2ccfd7bf.pdf"
+        },
+        {
+          "id": "beae3ea551a2981067c22c27",
+          "title": "第八节课-收敛数列的性质",
+          "filename": "第八节课-收敛数列的性质.pdf",
+          "categoryId": "analysis",
+          "category": "数学分析",
+          "subsection": "",
+          "bytes": 1400263,
+          "modified": "2026-10-26T15:31:12.448Z",
+          "url": "documents/beae3ea551a2981067c22c27.pdf"
+        },
+        {
+          "id": "be6a1774957e4775478a66cd",
+          "title": "第九节课-收敛数列性质的收尾与单调有界定理",
+          "filename": "第九节课-收敛数列性质的收尾与单调有界定理.pdf",
+          "categoryId": "analysis",
+          "category": "数学分析",
+          "subsection": "",
+          "bytes": 948285,
+          "modified": "2026-10-27T05:16:43.589Z",
+          "url": "documents/be6a1774957e4775478a66cd.pdf"
+        },
+        {
+          "id": "b3449987ba45dc637a6a69e6",
+          "title": "第十节课-从e到柯西准则",
+          "filename": "第十节课-从e到柯西准则.pdf",
+          "categoryId": "analysis",
+          "category": "数学分析",
+          "subsection": "",
+          "bytes": 668407,
+          "modified": "2026-10-29T05:37:59.442Z",
+          "url": "documents/b3449987ba45dc637a6a69e6.pdf"
+        },
+        {
+          "id": "3776792a660f0b3d6b57ada0",
+          "title": "第十一节课-柯西准则的收口与函数极限的开端",
+          "filename": "第十一节课-柯西准则的收口与函数极限的开端.pdf",
+          "categoryId": "analysis",
+          "category": "数学分析",
+          "subsection": "",
+          "bytes": 931029,
+          "modified": "2026-11-02T15:39:55.893Z",
+          "url": "documents/3776792a660f0b3d6b57ada0.pdf"
+        },
+        {
+          "id": "d712cc23cd9c281fde4dc5af",
+          "title": "第十二节课-ε-δ定义与单侧极限",
+          "filename": "第十二节课-ε-δ定义与单侧极限.pdf",
+          "categoryId": "analysis",
+          "category": "数学分析",
+          "subsection": "",
+          "bytes": 931547,
+          "modified": "2026-11-03T05:32:38.225Z",
+          "url": "documents/d712cc23cd9c281fde4dc5af.pdf"
+        }
+      ]
+    },
+    {
+      "id": "algebra",
+      "name": "高等代数",
+      "description": "行列式、线性方程组与代数结构。",
+      "status": "ready",
+      "count": 5,
+      "items": [
+        {
+          "id": "5161264a41ffc21c57cedef8",
+          "title": "第2章§2§3-排列与n阶行列式",
+          "filename": "第2章§2§3-排列与n阶行列式.pdf",
+          "categoryId": "algebra",
+          "category": "高等代数",
+          "subsection": "",
+          "bytes": 1004122,
+          "modified": "2026-10-14T08:20:23.624Z",
+          "url": "documents/5161264a41ffc21c57cedef8.pdf"
+        },
+        {
+          "id": "12e8286a1faa7f0126589f56",
+          "title": "第2章§3§4-特殊行列式与行列式的七条性质",
+          "filename": "第2章§3§4-特殊行列式与行列式的七条性质.pdf",
+          "categoryId": "algebra",
+          "category": "高等代数",
+          "subsection": "",
+          "bytes": 835158,
+          "modified": "2026-10-15T16:16:46.650Z",
+          "url": "documents/12e8286a1faa7f0126589f56.pdf"
+        },
+        {
+          "id": "cf423d1fb88562af84dace4a",
+          "title": "第2章§5§6-行列式的计算与按行展开",
+          "filename": "第2章§5§6-行列式的计算与按行展开.pdf",
+          "categoryId": "algebra",
+          "category": "高等代数",
+          "subsection": "",
+          "bytes": 664994,
+          "modified": "2026-10-29T05:37:44.779Z",
+          "url": "documents/cf423d1fb88562af84dace4a.pdf"
+        },
+        {
+          "id": "83c4b6753e95db4f5deff673",
+          "title": "第2章§7§8-克拉默法则与拉普拉斯定理",
+          "filename": "第2章§7§8-克拉默法则与拉普拉斯定理.pdf",
+          "categoryId": "algebra",
+          "category": "高等代数",
+          "subsection": "",
+          "bytes": 742550,
+          "modified": "2026-10-31T06:33:41.816Z",
+          "url": "documents/83c4b6753e95db4f5deff673.pdf"
+        },
+        {
+          "id": "21f2ee695e5da5966d9b977c",
+          "title": "第三章§1-消元法与阶梯形方程组",
+          "filename": "第三章§1-消元法与阶梯形方程组.pdf",
+          "categoryId": "algebra",
+          "category": "高等代数",
+          "subsection": "",
+          "bytes": 680729,
+          "modified": "2026-11-04T16:50:03.687Z",
+          "url": "documents/21f2ee695e5da5966d9b977c.pdf"
+        }
+      ]
+    },
+    {
+      "id": "sets",
+      "name": "集合函数",
+      "description": "集合、关系与函数的基础语言。",
+      "status": "ready",
+      "count": 1,
+      "items": [
+        {
+          "id": "4d18425e8894fe09678e54ed",
+          "title": "T01-T02-集合论基础与关系",
+          "filename": "T01-T02-集合论基础与关系.pdf",
+          "categoryId": "sets",
+          "category": "集合函数",
+          "subsection": "",
+          "bytes": 1422043,
+          "modified": "2026-11-04T17:09:39.704Z",
+          "url": "documents/4d18425e8894fe09678e54ed.pdf"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "name": "信息报",
+      "description": "按日期整理的信息与阅读记录。",
+      "status": "ready",
+      "count": 5,
+      "items": [
+        {
+          "id": "3c3048cab2b8830f4619268c",
+          "title": "信息报-2026-10-19",
+          "filename": "信息报-2026-10-19.pdf",
+          "categoryId": "news",
+          "category": "信息报",
+          "subsection": "",
+          "bytes": 2284597,
+          "modified": "2026-10-19T04:09:11.250Z",
+          "url": "documents/3c3048cab2b8830f4619268c.pdf"
+        },
+        {
+          "id": "5fc282d6dcf12c9bf159332d",
+          "title": "信息报-2026-10-14",
+          "filename": "信息报-2026-10-14.pdf",
+          "categoryId": "news",
+          "category": "信息报",
+          "subsection": "",
+          "bytes": 2134052,
+          "modified": "2026-10-13T23:26:25.237Z",
+          "url": "documents/5fc282d6dcf12c9bf159332d.pdf"
+        },
+        {
+          "id": "e01501eaa040b3f826b6e1be",
+          "title": "信息报-2026-10-11",
+          "filename": "信息报-2026-10-11.pdf",
+          "categoryId": "news",
+          "category": "信息报",
+          "subsection": "",
+          "bytes": 2051771,
+          "modified": "2026-10-11T01:11:12.263Z",
+          "url": "documents/e01501eaa040b3f826b6e1be.pdf"
+        },
+        {
+          "id": "7e4fcb255300c1a8fe8b268c",
+          "title": "每日信息-2026-10-10",
+          "filename": "每日信息-2026-10-10.pdf",
+          "categoryId": "news",
+          "category": "信息报",
+          "subsection": "",
+          "bytes": 1464236,
+          "modified": "2026-10-10T05:51:54.157Z",
+          "url": "documents/7e4fcb255300c1a8fe8b268c.pdf"
+        },
+        {
+          "id": "126b2169ec225bef7b6e033e",
+          "title": "每日信息-2026-10-09",
+          "filename": "每日信息-2026-10-09.pdf",
+          "categoryId": "news",
+          "category": "信息报",
+          "subsection": "",
+          "bytes": 516496,
+          "modified": "2026-10-08T23:06:56.496Z",
+          "url": "documents/126b2169ec225bef7b6e033e.pdf"
+        }
+      ]
+    }
+  ],
+  "total": 23
+}
