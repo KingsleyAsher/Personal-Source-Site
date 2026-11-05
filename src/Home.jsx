@@ -23,7 +23,7 @@ export function Home({categories,total,loading,onNavigate,onCategory}){
    <div className="home-paths">
     <button className="home-path" onClick={()=>onNavigate('学习笔记')}><div className="path-top"><BookOpen size={26} weight="light"/><span>01 / STUDY</span></div><h3>学习笔记</h3><p>从一个定义，到一次推导。<br/>整理数学课程里的理解与思考。</p><div className="path-bottom"><span>{loading?'课程笔记':notes+' 份课程笔记'}</span><ArrowRight size={20}/></div></button>
     <button className="home-path" onClick={()=>onCategory('news')}><div className="path-top"><Newspaper size={26} weight="light"/><span>02 / READING</span></div><h3>信息与阅读</h3><p>把值得留下的信息收进档案，<br/>在时间的脉络里重新发现。</p><div className="path-bottom"><span>{loading?'信息报归档':(news?.items.length||0)+' 份信息报'}</span><ArrowRight size={20}/></div></button>
-    <button className="home-path" onClick={()=>onNavigate('项目程序')}><div className="path-top"><Code size={26} weight="light"/><span>03 / MAKING</span></div><h3>项目实践</h3><p>让想法走出纸面，<br/>记录程序与作品的构建过程。</p><div className="path-bottom"><span>准备收录</span><ArrowRight size={20}/></div></button>
+    <button className="home-path" onClick={()=>onNavigate('项目程序')}><div className="path-top"><Code size={26} weight="light"/><span>03 / MAKING</span></div><h3>项目实践</h3><p>让想法走出纸面，<br/>记录程序与作品的构建过程。</p><div className="path-bottom"><span>3 个项目 · 中文技术档案</span><ArrowRight size={20}/></div></button>
    </div>
   </section>
   <section className="home-closing"><span>ABOUT THIS SPACE</span><p>保持好奇，持续构建。<br/><small>一个安放知识，也留给新想法的地方。</small></p><button className="text-link" onClick={()=>onNavigate('关于')}>认识知隅 <ArrowUpRight size={18}/></button></section>
