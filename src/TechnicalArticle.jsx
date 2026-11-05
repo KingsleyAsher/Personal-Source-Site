@@ -1,10 +1,3 @@
-import {ArrowUpRight} from '@phosphor-icons/react';
-
-export function sourceUrl(project,index){
- const [path]=project.article.sources[index];
- return project.repository+'/blob/'+project.article.snapshot+'/'+path.split('/').map(encodeURIComponent).join('/');
-}
-
 export function ArticleBlock({block}){
  return <div className="technical-block">
   {block.title&&<h3>{block.title}</h3>}
@@ -17,19 +10,9 @@ export function ArticleBlock({block}){
  </div>;
 }
 
-export function TechnicalArticle({project}){
- const article=project.article;
- return <>
-  {article.sections.map((section,i)=><section id={'project-chapter-'+section.id} key={section.id} className="technical-section" aria-labelledby={'chapter-heading-'+section.id}>
-   <div className="technical-section-heading"><span>{String(i+1).padStart(2,'0')}</span><h2 id={'chapter-heading-'+section.id}>{section.title}</h2></div>
+export function TechnicalArticle({section,index}){
+ return <section id={'project-chapter-'+section.id} className="technical-section" aria-labelledby={'chapter-heading-'+section.id}>
+   <div className="technical-section-heading"><span>{String(index+1).padStart(2,'0')}</span><h2 id={'chapter-heading-'+section.id}>{section.title}</h2></div>
    {section.blocks.map((block,j)=><ArticleBlock block={block} key={j}/>)}
-   {section.refs?.length>0&&<div className="chapter-sources"><span>本章依据</span>{section.refs.map(n=><a href={sourceUrl(project,n)} key={n} target="_blank" rel="noopener noreferrer">{article.sources[n][1]} <ArrowUpRight size={13}/></a>)}</div>}
-  </section>)}
-  <section id="project-chapter-bibliography" aria-labelledby="chapter-heading-bibliography" className="technical-section">
-   <div className="technical-section-heading"><span>{String(article.sections.length+1).padStart(2,'0')}</span><h2 id="chapter-heading-bibliography">资料来源与版本</h2></div>
-   <p className="source-note">本文依据项目公开文档与实现整理，历史实验为原报告记录，本次扩写未重新运行。各章出处固定至同一仓库版本，便于核对技术方案与当时结论。</p>
-   <div className="source-snapshot"><span>参考版本</span><a href={project.repository+'/tree/'+article.snapshot} target="_blank" rel="noopener noreferrer">{article.snapshot.slice(0,12)} <ArrowUpRight size={14}/></a><span>{article.version}</span></div>
-   <ol className="bibliography-list">{article.sources.map(([path,label],i)=><li key={path}><a href={sourceUrl(project,i)} target="_blank" rel="noopener noreferrer"><span>{label}</span><ArrowUpRight size={16}/></a></li>)}</ol>
-  </section>
- </>;
+ </section>;
 }
