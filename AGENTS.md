@@ -6,6 +6,8 @@ Project articles must be detailed technical archives, not short summaries. Cover
 
 Run the local server yourself and open the preview in the browser available to this environment. Do not give the user server-start instructions when you can run it.
 
+The project TOC must highlight the chapter at the current reading position while scrolling, independently of the last clicked URL. Keep its active entry visible within the sidebar. On mobile the collapsed TOC control stays fixed to the viewport and usable throughout the entire article, including near the bottom; expanding shows the current chapter.
+
 Before making substantial visual changes, use the Product Design plugin's `get-context` skill when the visual source is unclear or no longer matches the current goal. When the user gives durable prototype-specific design feedback, preferences, or decisions, record them in `AGENTS.md`.
 
 When implementing from a selected generated mock, treat that image as the source of truth for layout, component anatomy, density, spacing, color, typography, visible content, and hierarchy.
