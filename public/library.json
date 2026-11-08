@@ -210,7 +210,7 @@
       "name": "集合函数",
       "description": "集合、关系与函数的基础语言。",
       "status": "ready",
-      "count": 1,
+      "count": 2,
       "items": [
         {
           "id": "4d18425e8894fe09678e54ed",
@@ -222,6 +222,17 @@
           "bytes": 1422043,
           "modified": "2026-11-04T17:09:39.704Z",
           "url": "documents/4d18425e8894fe09678e54ed.pdf"
+        },
+        {
+          "id": "c2cccc7fd534ab7c5f1a6ee2",
+          "title": "第3讲-Topic2收尾与Topic3函数",
+          "filename": "第3讲-Topic2收尾与Topic3函数.pdf",
+          "categoryId": "sets",
+          "category": "集合函数",
+          "subsection": "",
+          "bytes": 935965,
+          "modified": "2026-11-06T13:09:19.102Z",
+          "url": "documents/c2cccc7fd534ab7c5f1a6ee2.pdf"
         }
       ]
     },
@@ -290,5 +301,5 @@
       ]
     }
   ],
-  "total": 23
+  "total": 24
 }
